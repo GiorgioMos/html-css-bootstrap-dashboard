@@ -1,0 +1,216 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.bord{
+ border: 1px solid rgb(2, 2, 2);
+}
+
+button{
+    border: none;
+    background: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+/* haeder */
+.topbar{
+    height: 80px;
+    width: 100%;
+}
+
+.info_hover:hover{
+    background-color: grey;
+    border-radius: 50px;
+    width: 30px;
+    padding: 5px;
+}
+
+
+/* main */
+main{
+    display: flex;
+    height: calc(100vh - 80px);
+}
+
+/* sidebar */
+.sidebar{
+    height: 100%;
+    width: 200px;
+    background-color:#051e34;
+    color: white;
+    font-size: 20px;
+    padding-top: 30px;
+}
+
+.hover_info:hover{
+    color: white;
+    background-color: rgb(255, 255, 255, 0.7);
+    height: 40px;
+    align-items: center;
+    cursor: pointer;
+}
+
+/* main block */
+.main_block{
+    flex-grow: 1;
+    height: 100%;
+    overflow-y: auto;
+}
+
+.main_bar{
+    width: 100%;
+    height: 170px;
+    background-color: #1b72e8;
+}
+
+/* left side */
+.bg-btn{
+    border-radius: 20px;
+    background-color: #165bba;
+    color: white;
+}
+
+.size_btn{
+    width: 120px;
+    height: 40px;
+    padding: 10px;
+}
+
+.size_btn_big{
+    width: 170px;
+    height: 40px;
+    padding: 10px;
+}
+
+#btn_app{
+    width: 80px;
+    height: 40px;
+    padding: 10px;
+}
+
+#btn_plus{
+    border-radius: 50px;
+    width: 50px;
+    height: 50px;
+}
+
+.btn_hover:hover{
+    background-color: white;
+    color:#165bba;
+    opacity: 0.6;
+}
+
+/* text main */
+
+/* class col */
+.ms_class_col{
+    width: 100%;
+}
+
+.bar_class_col{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color:  #f1f1f1;
+    padding: 5px;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    border: 1px solid #bbbbbb;
+}
+
+.bord_col{
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border: 1px solid #bbbbbb;
+}
+
+.btn_plus{
+    border: 1px solid #1b72e8;
+    color: #1b72e8;
+    width: 40px;
+    height: 40px;
+    border-radius: 5px;
+    background-color: white;
+    font-size: 20px;
+}
+
+.btn_plus:hover{
+    background-color: #f1f1f1;
+}
+
+.code_font{
+    font-size: 20px;
+    color: white;
+    padding: 10px;
+    border-radius: 50px;
+    background-color: #f26551 ;
+}
+
+.bg_pen_trash{
+    padding: 7px;
+    border: 1px solid #bbbbbb;
+    border-radius: 5px;
+    color: grey;
+}
+
+.bg_pen_trash:hover{
+    background-color: grey;
+    color: rgb(255, 255, 255);
+}
+
+/* faw col */
+.ms_faq_col{
+    width: 100%;
+}
+
+.faq_bar_col{
+    background-color:  #f1f1f1;
+    padding: 5px;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    border: 1px solid #bbbbbb;
+}
+
+.arrow_down:hover{
+    background-color: #bbbbbb;
+    width: 30px;
+    height: 30px;
+    border-radius: 50px;
+    padding: 5px;
+}
+
+/* todo col */
+.ms_todo_col{
+    width: 600px;
+    border-radius: 10px;
+}
+
+.todo_bar_col{
+    background-color:  #f1f1f1;
+    padding: 5px;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    border: 1px solid #bbbbbb;
+}
+
+/* user col */
+.ms_data_users_col{
+    width: 600px;
+    border: 1px solid #bbbbbb;
+    border-radius: 10px;
+
+}
+
+.data img{
+    width: 100%;
+    height: 100%;
+}

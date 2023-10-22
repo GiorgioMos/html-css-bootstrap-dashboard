@@ -1,0 +1,106 @@
+
+@media screen and (max-width: 1827px) {
+    
+    .ms_class_col, .ms_faq_col{
+        width: 800px;
+    }
+
+    .ms_todo_col, .ms_data_users_col{
+        width: 600px;
+        
+    }
+
+}
+
+@media screen and (max-width: 1680px) {
+    
+   .ms_todo_col, .ms_data_users_col{
+       width: 500px;
+       
+   }
+
+}
+
+@media screen and (max-width: 1614px) {
+
+    .ms_class_col, .ms_faq_col{
+        width: 700px;
+    }
+
+   .ms_todo_col, .ms_data_users_col{
+       width: 500px;
+       
+   }
+
+}
+
+@media screen and (max-width: 1450px) {
+
+    .ms_class_col, .ms_faq_col{
+        width: 600px;
+    }
+
+   .ms_todo_col, .ms_data_users_col{
+       width: 500px;
+       
+   }
+
+}
+
+@media screen and (max-width: 1334px) {
+
+    .ms_class_col, .ms_faq_col{
+        width: 600px;
+    }
+
+   .ms_todo_col, .ms_data_users_col{
+       width: 400px;
+       
+   }
+
+}
+
+@media screen and (max-width: 1224px) {
+
+    .ms_class_col, .ms_faq_col{
+        width: 500px;
+    }
+
+   .ms_todo_col, .ms_data_users_col{
+       width: 400px;
+       
+   }
+
+}   
+
+@media screen and (max-width: 992px) {
+
+    .sidebar{
+        width: 100px;
+    }
+
+    /* main bar */
+    .main_bar{
+        height: 300px;
+    }
+    
+    .ms_class_col, .ms_faq_col{
+        width: 800px;
+    }
+
+    .ms_todo_col, .ms_data_users_col{
+        width: 800px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    
+
+    .ms_class_col, .ms_faq_col{
+        width: 400px;
+    }
+
+    .ms_todo_col, .ms_data_users_col{
+        width: 400px;
+    }
+}

@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- fint awesome -->
+    <script src="https://kit.fontawesome.com/897e5eb927.js" crossorigin="anonymous"></script>
+
+    <!-- bs -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+
+    <!-- my css -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/breakpoints.css">
+    <title>Document</title>
+</head>
+<body>
+    <!-- header -->
+    <header>
+        <div class="topbar d-flex flex-row align-items-center p-4">
+            <!-- logo -->
+            <div class="col-xl-1 col-md-2 d-flex align-items-center">
+                <div class="logo">
+                    <img src="img/Logo.png" alt="">
+                </div>
+                <h1 class="fs-3 d-md-block d-none">boolean</h1>
+            </div>
+            <!-- navbar -->
+            <div class="input-group p-5">
+                <span class="input-group-text" id="basic-addon1">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                </span>
+                <input type="text" class="form-control" placeholder="Prova a cercare: lezioni di Laravel" aria-label="Username" aria-describedby="basic-addon1">
+              </div>
+            <!-- info -->
+            <div class="col-xl-1 col-lg-1 col-md-1 col-1 d-flex justify-content-center align-items-center gap-4 ">
+                <button class="d-lg-block d-none">
+                    <a href="">
+                        <div class="text-dark info_hover"><i class="fa-solid fa-bars"></i></div>
+                    </a>
+                </button>
+                <button class="d-lg-block d-none">
+                    <a href="">
+                        <div class="text-dark info_hover"><i class="fa-solid fa-circle-question"></i></div>
+                    </a>
+                </button>
+                <button class="d-lg-block d-none">
+                    <a href="">
+                        <div class="text-dark info_hover"><i class="fa-solid fa-ellipsis-vertical"></i></div>
+                    </a>
+                </button>
+                <button>
+                    <a href="">
+                        <div class="text-warning info_hover"><i class="fa-solid fa-bell"></i></div>
+                    </a>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <!-- main -->
+    <main>
+        <!-- sidebar -->
+        <section class="sidebar">
+           <div class="container d-flex flex-column justify-content-between h-100">
+            <!-- sidebar top -->
+                <div class="side_top">
+                    <div class="d-flex justify-content-center mb-4 gap-4 hover_info">
+                        <div><i class="fa-solid fa-house"></i></div>
+                        <div class="d-lg-block d-none">Home</div>
+                    </div>
+                    <div class="d-flex justify-content-center mb-4 gap-4 hover_info">
+                        <div><i class="fa-solid fa-chart-simple"></i></div>
+                        <div class="d-lg-block d-none">Stats</div>
+                    </div>
+                    <div class="d-flex justify-content-center mb-4 gap-4 hover_info">
+                        <div><i class="fa-solid fa-signal"></i></i></div>
+                        <div class="d-lg-block d-none">Signal</div>
+                    </div>
+                </div>
+            <!-- sidebar bottom -->
+                <div class="side_bottoms mb-4">
+                    <div class="d-flex justify-content-center gap-4 hover_info">
+                        <div><i class="fa-solid fa-gear"></i></div>
+                        <div class="d-lg-block d-none">Admin</div>
+                    </div>
+                </div>
+           </div>
+        </section>
+
+        <!-- main block -->
+        <section class="main_block">
+           <div class="main_bar d-lg-flex d-block align-items-center text-white ">
+                <!-- left side main bar -->
+                <div class="row ps-3 p-4">
+                    <div class="d-flex align-items-center mb-4 gap-3">
+                        <h2>Boolean</h2>
+                        <button class="bg-btn size_btn btn_hover">Piano blaze</button>
+                    </div>
+                    <div class="d-flex align-items-center gap-3">
+                        <button class="bg-btn btn_hover" id="btn_app">3 app</button>
+                        <div><i class="fa-solid fa-angles-right "></i></div>
+                        <button class="fs-2 bg-btn btn_hover" id="btn_plus">+</button>
+                        <button class="d-xl-block d-none bg-btn size_btn_big btn_hover">Boolean mobile app</button>
+                        <button class="d-xl-block d-none bg-btn size_btn_big btn_hover">Boolean web app</button>
+                        <button class="d-xl-block d-none bg-btn size_btn_big btn_hover">Boolean blog app</button>
+                    </div>
+                </div>
+                <!-- right side main bar -->
+                <div class="row ps-3">
+                    <div class="mb-4 fs-4">Studenti online negli ultimi 30 minuti</div>
+                    <div class="fs-1">125</div>
+                </div>
+           </div>
+           <!-- text main -->
+           <div class=" d-lg-flex d-md-block p-4 gap-5">
+            <!-- class col -->
+                <div class="flex-row">
+                    <div class="ms_class_col mb-3 col-12">
+                        <div class="bar_class_col">
+                            <h2 class="">Prossime classi</h2>
+                            <button class="btn_plus">+</button>
+                        </div>
+                        <div class="bord_col p-4">
+                            <div class="d-flex row">
+                                <div class="col-6 fw-bold">Nome</div>
+                                <div class="col-6 d-flex justify-content-around fw-bold mb-3">
+                                    <div>Data inizio</div>
+                                    <div>ROI</div>
+                                    <div>Stato</div>
+                                    <div>Azioni</div>
+                                </div>
+                                <div class="col-6 align-items-center">
+                                    <span class="code_font"><i class="fa-solid fa-code"></i></span>
+                                    Classe 75
+                                </div>
+                                <div class="col-6 d-flex justify-content-around align-items-center mb-3">
+                                    <div>15 Feb 2021</div>
+                                    <div>20%</div>
+                                    <div class="bg-success rounded p-2">Done</div>
+                                    <div>
+                                        <button class="bg_pen_trash"><i class="fa-solid fa-pen"></i></button>
+                                        <button class="bg_pen_trash"><i class="fa-solid fa-trash"></i></button>
+                                    </div>
+                                </div>
+                                <hr>
+                                <div class="col-6 align-items-center">
+                                    <span class="code_font"><i class="fa-solid fa-code"></i></span>
+                                    Classe 76
+                                </div>
+                                <div class="col-6 d-flex justify-content-around align-items-center mb-3">
+                                    <div>16 Feb 2021</div>
+                                    <div>20%</div>
+                                    <div class="bg-success rounded p-1">Done</div>
+                                    <div>
+                                        <button class="bg_pen_trash"><i class="fa-solid fa-pen"></i></button>
+                                        <button class="bg_pen_trash"><i class="fa-solid fa-trash"></i></button>
+                                    </div>
+                                </div>
+                                <hr>
+                                <div class="col-6 align-items-center">
+                                    <span class="code_font"><i class="fa-solid fa-code"></i></span>
+                                    Classe 77
+                                </div>
+                                <div class="col-6 d-flex justify-content-around align-items-center mb-3">
+                                    <div>17 Feb 2021</div>
+                                    <div>20%</div>
+                                    <div class="bg-warning rounded p-1">Process</div>
+                                    <div>
+                                        <button class="bg_pen_trash"><i class="fa-solid fa-pen"></i></button>
+                                        <button class="bg_pen_trash"><i class="fa-solid fa-trash"></i></button>
+                                    </div>
+                                </div>
+                                <hr>
+                                <div class="col-6 align-items-center">
+                                    <span class="code_font"><i class="fa-solid fa-code"></i></span>
+                                    Classe 78
+                                </div>
+                                <div class="col-6 d-flex justify-content-around align-items-center mb-3">
+                                    <div>18 Feb 2021</div>
+                                    <div>20%</div>
+                                    <div class="bg-success rounded p-1">Done</div>
+                                    <div>
+                                        <button class="bg_pen_trash"><i class="fa-solid fa-pen"></i></button>
+                                        <button class="bg_pen_trash"><i class="fa-solid fa-trash"></i></button>
+                                    </div>
+                                </div>
+                                <hr>
+                                <div class="col-6 align-items-center">
+                                    <span class="code_font"><i class="fa-solid fa-code"></i></span>
+                                    Classe 79
+                                </div>
+                                <div class="col-6 d-flex justify-content-around align-items-center mb-3">
+                                    <div>19 Feb 2021</div>
+                                    <div>20%</div>
+                                    <div class="bg-danger rounded p-1">Failed</div>
+                                    <div>
+                                        <button class="bg_pen_trash"><i class="fa-solid fa-pen"></i></button>
+                                        <button class="bg_pen_trash"><i class="fa-solid fa-trash"></i></button>
+                                    </div>
+                                </div>
+                                <hr>
+                                <div class="col-6 align-items-center">
+                                    <span class="code_font"><i class="fa-solid fa-code"></i></span>
+                                    Classe 80
+                                </div>
+                                <div class="col-6 d-flex justify-content-around align-items-center mb-3">
+                                    <div>20 Feb 2021</div>
+                                    <div>20%</div>
+                                    <div class="bg-success rounded p-1">Done</div>
+                                    <div>
+                                        <button class="bg_pen_trash"><i class="fa-solid fa-pen"></i></button>
+                                        <button class="bg_pen_trash"><i class="fa-solid fa-trash"></i></button>
+                                    </div>
+                                </div>
+                                <hr>
+                                <div class="col-6 align-items-center">
+                                    <span class="code_font"><i class="fa-solid fa-code"></i></span>
+                                    Classe 81
+                                </div>
+                                <div class="col-6 d-flex justify-content-around align-items-center mb-3">
+                                    <div>21 Feb 2021</div>
+                                    <div>20%</div>
+                                    <div class="bg-danger rounded p-1">Failed</div>
+                                    <div>
+                                        <button class="bg_pen_trash"><i class="fa-solid fa-pen"></i></button>
+                                        <button class="bg_pen_trash"><i class="fa-solid fa-trash"></i></button>
+                                    </div>
+                                </div>
+                                <hr>
+                                <div class="col-6 align-items-center">
+                                    <span class="code_font"><i class="fa-solid fa-code"></i></span>
+                                    Classe 82
+                                </div>
+                                <div class="col-6 d-flex justify-content-around align-items-center gap-3 mb-3">
+                                    <div>22 Feb 2021</div>
+                                    <div>20%</div>
+                                    <div class="bg-success rounded p-1">Done</div>
+                                    <div>
+                                        <button class="bg_pen_trash"><i class="fa-solid fa-pen"></i></button>
+                                        <button class="bg_pen_trash"><i class="fa-solid fa-trash"></i></button>
+                                    </div>
+                                </div>
+                                <hr>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="ms_faq_col mb-4">
+                        <div class="faq_bar_col">
+                            <h2>F.A.Q.</h2>
+                        </div>
+                        <div class="bord_col p-5">
+                            <div class="row d-flex ">
+                                <div class="col-11">
+                                    Come aggiungere una nuova classe?
+                                </div>
+                                <div class="col-1">
+                                    <button class="arrow_down">
+                                        <i class="fa-solid fa-angle-down"></i>
+                                    </button>
+                                </div>
+                            </div>
+                            <hr>
+                            <div class="row d-flex">
+                                <div class="col-11">
+                                    Come posso accedere alle informazioni della mia classe?
+                                </div>
+                                <div class="col-1">
+                                    <button class="arrow_down">
+                                        <i class="fa-solid fa-angle-down"></i>
+                                    </button>
+                                </div>
+                            </div>
+                            <hr>
+                            <div class="row d-flex ">
+                                <div class="col-11">
+                                    Posso usare questa dashboard da mobile?
+                                </div>
+                                <div class="col-1">
+                                    <button class="arrow_down">
+                                        <i class="fa-solid fa-angle-down"></i>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- right side bottom col -->
+                <div class="flex-row">
+                    <!-- todo col -->
+                    <div class="ms_todo_col mb-4">
+                        <div class="todo_bar_col">
+                            <h2>Todo</h2>
+                        </div>
+                        <div class="bord_col p-4">
+                            <div class="border rounded">
+                                <div class="row m-2">
+                                    <div class="col-6 d-flex align-items-center gap-3">
+                                        <input type="checkbox">
+                                        <div>Kickoff nuove classi</div>
+                                    </div>
+                                </div>
+                                <hr>
+                                <div class="row m-2">
+                                    <div class="col-8 d-flex align-items-center gap-3">
+                                        <input type="checkbox">
+                                        <div>Lezione su Bootstrap 5 in classe #75</div>
+                                    </div>
+                                </div>
+                                <hr>
+                                <div class="row m-2">
+                                    <div class="col-8 d-flex align-items-center gap-3">
+                                        <input type="checkbox">
+                                        <div>Controllare username github studenti</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- data user col -->
+                    <div class="ms_data_users_col p-4">
+                        <div class=" data border rounded p-3">
+                            <div class="row">
+                                <img src="img/stats.jpeg" alt="">
+                            </div>
+                            <div class="row">
+                                <div>
+                                    <h2>Utenti attivi</h2>
+                                </div>
+                            </div>
+                            <div class="row mb-4">
+                                <div>Gennaio: 1200</div>
+                            </div>
+                            <hr>
+                            <div class="row mb-4">
+                                <div>Febbraio: 800</div>
+                            </div>
+                            <hr>
+                            <div class="row mb-4">
+                                <div>Marzo: 1500</div>
+                            </div>
+                            <hr>
+                            <div class="row mb-4">
+                                <a href="">
+                                    <u>Visullizza report approfondito</u>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+           </div>
+        </section>
+    </main>
+</body>
+</html>
